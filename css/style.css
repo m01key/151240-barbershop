@@ -1,3 +1,5 @@
+/* ====== главная ====== */
+
 body {
   font-family: "PT Sans Narrow", "Arial", sans-serif;
   font-size: 14px;
@@ -21,3 +23,183 @@ h3 {
   font-weight: bold;
   color: #000000;
 }
+
+.index-header {
+  margin-bottom: 60px;
+  outline: 1px solid red;
+}
+
+.container {
+  width: 940px;
+  padding: 0 10px;
+  margin: 0 auto;
+  outline: 1px solid green;
+}
+
+.header-logo {
+  float: left;
+  width: 140px;
+  margin-right: 20px;
+  outline: 1px solid yellow;
+}
+
+.main-nav {
+  width: 540px;
+  margin-right: 20px;
+  float: left;
+  outline: 1px solid yellow;
+}
+
+.user {
+  width: 140px;
+  float: right;
+  outline: 1px solid yellow;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.main-logo {
+  margin: 0 auto 26px;
+  width: 368px;
+  height: 204px;
+  outline: 1px solid yellow;
+}
+
+.features .item {
+  width: 300px;
+  margin-right: 20px; 
+  margin-bottom: 65px;
+  float: left;
+
+  min-height: 150px;
+  outline: 1px solid yellow;
+}
+
+.features .item:last-child {
+  margin-right: 0; 
+}
+
+.index-content {
+  padding: 52px 80px;
+  margin-bottom: 35px;
+  outline: 1px solid yellow;
+}
+
+.index-content .left {
+  width: 380px;
+  float: left;
+  outline: 1px solid orange;
+}
+
+.index-content .right {
+  width: 300px;
+  float: right;
+  outline: 1px solid orange;
+}
+
+.index-footer {
+  margin-top: 65px;
+  padding-top: 60px;
+  outline: 1px solid red;
+}
+
+.footer .left {
+  width: 380px;
+  margin-right: 20px;
+  float: left;
+  outline: 1px solid yellow;
+}
+
+.footer .middle {
+  width: 300px;
+  margin-right: 20px;
+  float: left;
+  outline: 1px solid yellow;
+}
+
+.footer .right {
+  width: 160px;
+  float: right;
+  outline: 1px solid yellow;
+}
+
+/* ====== каталог ====== */
+
+.catalog-header {
+  outline: 1px solid red;
+}
+
+main .top {
+  padding-top: 55px;
+  outline: 1px solid yellow;
+}
+
+.filter {
+  width: 220px;
+  float: left;
+  margin-right: 20px;
+  outline: 1px solid yellow;
+}
+
+.items {
+  float: right;
+  width: 700px;
+  outline: 1px solid yellow;
+}
+
+.item {
+  display: inline-block;
+  width: 220px;
+  /*margin-right: 20px;*/
+  vertical-align: top;
+  outline: 1px solid orange;
+}
+
+.paginator {
+  outline: 1px solid yellow
+}
+
+.catalog-footer {
+  padding-top: 60px;
+  outline: 1px solid red;
+}
+
+/* ====== товар ====== */
+
+.gallery {
+  float: left;
+  width: 480px;
+  outline: 1px solid yellow;
+}
+
+.image {
+  /*margin-right: 20px;*/
+  outline: 1px solid yellow;
+}
+
+.description {
+  float: right;
+  width: 400px;
+  padding: 0 10px;
+  outline: 1px solid yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
