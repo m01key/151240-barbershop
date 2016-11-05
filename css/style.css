@@ -1,3 +1,4 @@
+
 /* ====== главная ====== */
 
 body {
@@ -22,6 +23,10 @@ h3 {
   line-height: 30px;
   font-weight: bold;
   color: #000000;
+}
+
+main {
+  outline: 1px solid red;
 }
 
 .index-header {
@@ -154,13 +159,23 @@ main .top {
 .item {
   display: inline-block;
   width: 220px;
-  /*margin-right: 20px;*/
+  margin-right: 17px;
+  margin-top: 20px;
   vertical-align: top;
   outline: 1px solid orange;
 }
 
+.item:nth-child(3n+3) {
+  margin-right: 0;
+}
+
+.item:nth-child(-n+3) {
+  margin-top: 0;
+}
+
 .paginator {
-  outline: 1px solid yellow
+  margin-top: 45px;
+  outline: 1px solid yellow;
 }
 
 .catalog-footer {
@@ -170,7 +185,7 @@ main .top {
 
 /* ====== товар ====== */
 
-.gallery {
+.item-gallery {
   float: left;
   width: 480px;
   outline: 1px solid yellow;
@@ -178,7 +193,7 @@ main .top {
 
 .image {
   /*margin-right: 20px;*/
-  outline: 1px solid yellow;
+  outline: 1px solid orange;
 }
 
 .description {
